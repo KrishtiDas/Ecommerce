@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SYTLE.CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- BOOTSTRAP FILE-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fontawesome.com/">
+    <link rel="stylesheet" href="https://unsplash.com/">
+    <link rel="stylesheet" href="https://cssgradient.io/">
+
+    <title>E-Commerce</title>
+</head>
+<body id="top">
+    <!-- nav starts -->
+    <section class="header_menu" id="header_menu">
+        <div class="container-fluid-px-0 shadow">
+            <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+                <a class="navbar-brand pl-5 pl-small-0" href="index.html">
+                    <img src="assets/images/e-commerce-logo-removebg-preview.png" class="img img-fluid" width="90px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="product.html">Product</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="category.html">Category</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                    </ul>
+                    <div class="search mr-3">
+                        <a href="search.html" class="btn btn-sm btn-outline-primary">Search</a>
+                    </div>
+                    <div class="cart">
+                        <a href="cart.html">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span style="font-style:blue">2</span>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!-- nav ends -->
+
+    <!-- CAROUSEL -->
+    <section class="header_carousel" id="header_carousel">
+      <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <!-- carousel 1 -->
+        <div class="carousel-item active">
+          <img src="assets/images/women's-collection-modern.png" class="d-block w-100" style="height:400px; width:500px" alt="...">
+        </div>
+        <!-- carousel 2 -->
+        <div class="carousel-item">
+          <img src="assets/images/mens-collection-traditional.jpg" class="d-block w-100" style="height:400px; width:500px" alt="...">
+        </div>
+        <!-- carousel 3 -->
+        <div class="carousel-item">
+          <img src="assets/images/best-of-live-season.png" class="d-block w-100" style="height:400px; width:400px" alt="...">
+        </div>
+        <!-- carousel 4 -->
+        <div class="carousel-item">
+          <img src="assets/images/kids-collection.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+  </section>
+    <!-- carousel ends -->
+
+    <!-- CARDS -->
+    <section class="shop_by_category py-5 my-5" id="shop_by_category">
+      <div class="container-fluid">
+        <div class="section_title text-center mb-5">
+          <h1 class="text-applicable">Shop by category</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <div class="card bg-dark text-white">
+              <a href="category.html">
+                <img class="card-img img img-fluid" src="assets/images/fashion.png" alt="Card-image-fashion">
+                </a>
+            </div>
+          </div>
+          <div class="col-md col-12 mt-small-5 mb-small-5">
+            <div class="card bg-dark text-white">
+              <a href="category.html">
+                <img class="card-img img img-fluid" src="assets/images/accessories.png" alt="Card-image-accessories" style="height:229px;">
+              </a>
+            </div>
+        </div>
+        <div class="col-md-4 col-12">
+          <div class="card bg-dark text-white">
+            <a href="catefory.html">
+              <img class="card-img img img-fluid" src="assets/images/home-appliances.jpg" alt="Card-image-appliances" style="height:229px;">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cards end -->
+
+    <!-- PRODUCT -->
+    <section class="products py-5 my-5 bg-light" id="products">
+      <div class="container">
+        <div class="section_title text-center mb-5">
+          <h1 class="text-capitalize">Latest Products from Festive Collection</h1>
+        </div>
+        <!-- row 1 -->
+        <div class="row mb-5">
+          <!-- item 1 -->
+          <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1">
+              <div class="product_img">
+                <a href="product_detail.html"><img src="assets/images/Teal-blue-kurta.png" class="img img-fluid" alt=""  style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="far fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Teal kurta for Men</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span><span>1200</span></b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+          <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/salwar.jpg" class="img img-fluid" alt=""  style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Salwar for Women</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>1500</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <!-- item 3 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/fossil-watch.jpeg" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star low-star"></i>
+                  <i class="fa fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Fossil watches for men</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>15000</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+        </div>
+        <!-- row 2 -->
+        <div class="row mb-5">
+          <!-- item 1 -->
+          <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1">
+              <div class="product_img">
+                <a href="product_detail.html"><img src="assets/images/girl-salwar-suit.png" class="img img-fluid" alt=""  style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star low-star"></i>
+                  <i class="far fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Girls salwar suit</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span><span>2300</span></b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/vivo-mobile-phone.jpg" class="img img-fluid" alt=""></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star low-star"></i>
+                  <i class="fa fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Mobile phone</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>25000</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <!-- item 3 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/boy-kurta.png" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star low-star"></i>
+                  <i class="far fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Boys Kurta set</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>950</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+        </div> 
+        <!-- row 3 -->
+        <div class="row mb-5">
+          <!-- item 1 -->
+          <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1">
+              <div class="product_img">
+                <a href="product_detail.html"><img src="assets/images/pikachu-soft-toy.jpg" class="img img-fluid" alt=""  style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Pikachu soft toy</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span><span>300</span></b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/Boat-airdrop.jpg" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Boat Airdrops</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>1500</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <!-- item 3 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/office-formal-beige-suit-women.jpg" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Beige Office Formal for women </a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>4500</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+        </div> 
+        <!-- row 4 -->
+        <div class="row mb-5">
+          <!-- item 1 -->
+          <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1">
+              <div class="product_img">
+                <a href="product_detail.html"><img src="assets/images/men-formal-shoes.jpg" class="img img-fluid" alt=""  style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                  <i class="fas fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Formal office shoes for men</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span><span>2300</span></b>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- item 2 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/water-bottle-set.jpg" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star low-star"></i>
+                  <i class="far fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Water Bottle set</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>500</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+          <!-- item 3 -->
+            <div class="col-lg-4 d-flex align-items-stretch" style="width: 375px; height: 500px;">
+            <div class="single_product shadow text-center p-1 mt-small-5 mb-small-5">
+              <div class="product_img">
+                <a href="product_details.html"><img src="assets/images/earring.jpg" class="img img-fluid" alt="" style="width:350px; height:345px"></a>
+                <div class="new_product">
+                  <span class="badge py-2 px-3 badge-pill badge-danger">New</span>
+                </div>
+              </div>  
+              <div class="product-caption my-3">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star low-star"></i>
+                  <i class="far fa-star low-star"></i>
+                </div>
+                <h4><a href="product_detail.html">Jhumka based earrings</a></h4>
+                <div class="price">
+                  <b><span class="mr-1">Rs.</span>250</b>
+                </div>
+              </div>          
+            </div>
+          </div>
+        </div> 
+        <!-- end of row 4-->
+        </div>  
+    </section>
+    <!-- end of product -->
+
+    <!-- FEATURES -->
+    <section class="feature py-5 mt-5" id="feature">
+      <div class="container" style="background-color: rgba(79, 97, 143, 0.4);">
+        <div class="section_title text-center mb-5">
+          <h1 class="text-capitalize"><em>Our Features</em></h1>
+        </div>
+        <div class="row text-dark">
+          <div class="col-md-4 col-12 shadow p-3">
+            <div class="text-center">
+              <div class="mb-4">
+                <i class="fas fa-shipping-fast fa-3x pt-2"></i>
+                <div>
+                  <h3>Free Shipping Methods</h3>
+                </div>
+              </div>
+              <div><em>Being one of the top notch company it our vision and mission to provide user free shipping throughout the globe.</em>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 shadow p-3 mt-small-5 mb-small-5">
+            <div class="text-center">
+              <div class="mb-4">
+                <i class="fas fa-lock fa-3x mb-3 pt-2"></i>
+                <div>
+                  <h3>Secure Payment System</h3>
+                </div>
+              </div>
+              <div><em>Whether it is COD or UPI your transaction is secured with us.</em>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-12 shadow p-3">
+            <div class="text-center">
+              <div class="mb-4">
+                <i class="fas fa-sync-alt fa-3x mb-3 pt-2"></i>
+                <div>
+                  <h3>Sync with any device</h3>
+                </div>
+              </div>
+            </div>
+            <div><em>One can sync it off with any device whether it is a mobile, tablet, laptop and others.</em>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+     <section class="footer_section pt-5 pb-2" id="footer_section">
+      <footer>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 col-6 pl-small-15">
+              <div class="footer_title">
+                <a href="index.html"><img src="assets/images/e-commerce-logo-removebg-preview.png" width="150px" class="img img-fluid" alt="logo"></a>
+              </div>
+              <div>Click, wish, deliver.
+
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+                <h3>Quick Links</h3>
+              </div>
+              <div class="footer-links">
+                <ul>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="javascript:;">Offers & Discounts</a></li>
+                  <li><a href="javascript:;">Get Coupon</a></li>
+                  <li><a href="javascript:;">Contact Us</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+                <h3>New Products</h3>
+              </div>
+              <div class="footer_links">
+                <ul>
+                  <li><a href="javascript:;">Women's Fashion</a></li>
+                  <li><a href="javascript:;">Fashion Accessories</a></li>
+                  <li><a href="javascript:;">Men's Fashion</a></li>
+                  <li><a href="javascript:;">Kid's Fashion</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="footer_title pt-3 mb-3">
+                <h3>Support</h3>
+              </div>
+              <div class="footer_links">
+                <ul>
+                  <li><a href="javascript:;">Frequently Asked Questions</a></li>
+                  <li><a href="javascript:;">Terms & Conditions</a></li>
+                  <li><a href="javascript:;">Privacy Policy</a></li> 
+                  <li><a href="javascript:;">Report a Payment Issue</a></li>               
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-top">
+          <h6 class="text-center mt-3">Copyright 2024 All rights reserved
+          </h6>
+        </div>
+      </footer>
+     </section>
+     <div class="backtop">
+      <a id="button" href="#top" class="btn btn-lg btn-outline-success" role="button" style="float:right">
+        <i class="fas fa-chevron-up text-dark"></i>
+      </a>
+     </div>
+    <!-- BOOTSTRAP.JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/checkout.js"></script>
+</body>
+</html>
+
