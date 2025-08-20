@@ -1,9 +1,9 @@
 🛒 Frontend E-Commerce Project
-Overview
+**Overview**
 
 This is a frontend-only e-commerce web application built using HTML, CSS, JavaScript, and Bootstrap. It allows users to navigate products, view categories, and fill in checkout details. Note: Payment processing is not enabled; checkout data is captured but not processed.
 
-Features
+**Features**
 
 Responsive Navigation Bar: Home, Products, Categories, About Us, Contact Us
 
@@ -15,7 +15,7 @@ Checkout Form: Users can enter checkout details (frontend only)
 
 Modern UI: Built with Bootstrap and custom CSS
 
-Technologies Used
+**Technologies Used**
 
 HTML5
 
@@ -25,12 +25,14 @@ JavaScript
 
 Bootstrap 5
 
-How to Run
+**How to Run**
 
 Clone or download the repository.
 
 Open index.html in a web browser.
 
-Notes
+**Notes**
 
 Payment functionality is not implemented.
+
+The backend is not present for this project.
